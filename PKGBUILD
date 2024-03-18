@@ -19,7 +19,7 @@ makedepends=(
   'python-wheel'
 )
 source=("git+$url.git#tag=$pkgver")
-b2sums=('SKIP')
+b2sums=('e67e311364df98595eac9320d894e628ca78a73ce49864984c788b1926294d9a805932b2e22e6b6d0330865f1eb308f042a8084c21374df540885bd25e3258b5')
 
 build() {
   cd $_name
